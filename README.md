@@ -17,8 +17,7 @@ Screenshots or Demo
 Challenges & Lessons Learned
 Author
 
-🛠 Suggested Tech Stack (strong but realistic)
-You don’t have to use all of this — but this is a clean, professional setup:
+Tech Stack 
 Frontend: React or Next.js
 API: OpenWeatherMap API
 State Management: React Hooks / Context
@@ -31,7 +30,7 @@ Error boundaries
 Clean folder structure
 Environment variables for API keys
 
-🧠 What makes this “Project Nexus–level”
+What makes this “Project Nexus–level”
 To stand out from basic weather apps:
 Well-structured components
 Reusable UI components
