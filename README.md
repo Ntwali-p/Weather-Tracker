@@ -1,9 +1,9 @@
 # Weather Tracker
 Project Overview – what the app does and why it exists
 Features
-Search weather by city
+Search the weather by city
 Real-time weather data
-Forecast (daily / hourly if included)
+Forecast (daily/hourly if included)
 Error handling (invalid city, API issues)
 Responsive UI
 Tech Stack
