@@ -51,7 +51,7 @@ README polish
 Screenshots
 Final cleanup & refactor
 
-## 📌 Project Scope & Guidelines
+# Project Scope & Guidelines
 This project was built in accordance with the **Project Nexus – Web Application** concept page.  
 All features, tools, and workflows follow the outlined requirements, including:
 - Use of modern web technologies
