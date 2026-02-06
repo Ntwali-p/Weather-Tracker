@@ -15,7 +15,7 @@ const generateMockWeather = (location: string): WeatherData => {
   
   return {
     location,
-    country: 'rwanda',
+    country: 'RWANDA',
     temperature: baseTemp,
     feelsLike: baseTemp + (Math.random() * 4 - 2),
     condition,
@@ -137,7 +137,7 @@ function App() {
               </div>
               <div>
                 <h1 className="text-xl font-bold text-white">Weather Tracker</h1>
-                <p className="text-xs text-muted-foreground">Project Nexus</p>
+                <p className="text-xs text-muted-foreground">Iteganyagihe</p>
               </div>
             </div>
             
@@ -232,7 +232,7 @@ function App() {
               Weather Tracker 
             </p>
             <div className="flex items-center gap-4 text-sm text-muted-foreground">
-              <span>Designed by ntwali pacific</span>
+              <span>Designed by Ntwali Pacific</span>
             </div>
           </div>
         </div>

@@ -42,7 +42,7 @@ Clean UX (not just “it works”)
 Week 1
 Project setup
 API integration
-Core weather features
+Core weather featuresz
 UI layout
 Week 2
 Error handling
@@ -58,3 +58,87 @@ All features, tools, and workflows follow the outlined requirements, including:
 - Professional Git workflow
 - Clear documentation
 - Scalable and maintainable code structure
+
+# 🌤️ Weather Tracker Web Application
+
+[![Vite](https://img.shields.io/badge/Vite-7.x-purple?logo=vite)](https://vitejs.dev/)
+[![React](https://img.shields.io/badge/React-18-blue?logo=react)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-Strict-blue?logo=typescript)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3.x-teal?logo=tailwindcss)](https://tailwindcss.com/)
+[![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen)](#)
+[![Project Nexus](https://img.shields.io/badge/ALX-Project%20Nexus-orange)](#)
+
+---
+
+## 📌 Project Overview
+
+**Weather Tracker** is a modern, responsive web application that allows users to search for real-time weather information by city.  
+It demonstrates **clean frontend architecture**, **API-driven development**, and **professional documentation**, built according to the **ALX Project Nexus – Web Application** standards.
+
+This project focuses not only on functionality, but also on **scalability, maintainability, and developer experience**.
+
+---
+
+## ✨ Features
+
+- 🔍 Search weather by city name
+- 🌡️ Real-time weather conditions
+- 📆 Daily & hourly weather forecasts
+- ⚠️ Graceful error handling (invalid city, network/API errors)
+- ⏳ Loading states for better UX
+- 📱 Fully responsive design (mobile-first)
+- 🔐 Environment variable support for API keys
+- 🧩 Modular & reusable React components
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- **React** (with **Vite**)  
+- **TypeScript** (strict typing)
+- **React Hooks** for state management
+
+### Styling & UI
+- **Tailwind CSS**
+- Modern glassmorphism-inspired UI
+- **Lucide React Icons**
+
+### API
+- **OpenWeatherMap API**
+- Architecture ready for real API integration
+- Environment-variable-based configuration
+
+### Tooling & Workflow
+- Git & GitHub (clean commit history)
+- ESLint (code quality)
+- Modular folder structure
+- Scalable component architecture
+
+### Deployment
+- Optimized for **Vercel** or **Netlify**
+
+---
+
+## 📂 Project Structure
+
+src/
+│── components/
+│ ├── weather/
+│ │ ├── CurrentWeather.tsx
+│ │ ├── Forecast.tsx
+│ │ ├── HourlyForecast.tsx
+│ │ └── SearchBar.tsx
+│── hooks/
+│── lib/
+│── types/
+│── utils/
+│── App.tsx
+│── main.tsx
+│── index.css
+
+npm install
+npm run dev
+
+
+http://localhost:5173/
